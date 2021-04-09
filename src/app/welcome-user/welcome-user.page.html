@@ -1,0 +1,12 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Welcome</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div *ngIf="user">welcome {{user.name}}!</div>
+  <div *ngIf="user">
+    <ion-img class="small-image" [src]="user.image_url"></ion-img>
+  </div>
+</ion-content>

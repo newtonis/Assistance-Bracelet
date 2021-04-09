@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "proyectofinalapp-28cef": {
+      "hosting": {
+        "app": [
+          "proyectofinalapp-28cef"
+        ]
+      }
+    }
+  }
+}
