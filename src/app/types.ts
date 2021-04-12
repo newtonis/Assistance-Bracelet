@@ -16,3 +16,10 @@ export function generateUserData(user: firebase.User) : UserData{
         image_url: user.photoURL
     }
 }
+
+export interface Medicine{
+    name: string;
+    startTime: number;
+    endTime: number;
+    
+};
