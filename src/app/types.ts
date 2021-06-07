@@ -19,7 +19,14 @@ export function generateUserData(user: firebase.User) : UserData{
 
 export interface Medicine{
     name: string;
+    
     startTime: number;
     endTime: number;
     
 };
+
+export interface Bracelet{
+    name: string;
+    medicine: Medicine[];
+}
+
