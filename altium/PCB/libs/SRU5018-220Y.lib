@@ -1,0 +1,18 @@
+.SRU5018-220Y :1 ;Bourns SRU5018 Series Shielded Wire-wound SMD Inductor with a Ferrite Core, 22 uH +/-30% Wire-Wound Q:12
+SRU5018680Y
+*STM L
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4"
+*MXP 4
+*DFN SRU5018-220Y
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (SRU5018-220Y)
+~!Mouser Part Number (652-SRU5018-220Y)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Bourns/SRU5018-220Y?qs=q9ZR8LvBB%2Fu2CA7Fi%252BOvOg%3D%3D)
+~!Arrow Part Number (SRU5018-220Y)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/sru5018-220y/bourns)
+~!Link Datasheet (https://www.bourns.com/docs/Product-Datasheets/SRU5018.pdf)
+~!Height (2mm)
+~!3D_Model (SRU5018-220Y)
+SRU5018-220Y
+1.1!U 2.1!U 3.1!U 4.1!U 
