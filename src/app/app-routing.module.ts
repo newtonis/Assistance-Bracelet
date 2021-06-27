@@ -19,6 +19,10 @@ const routes: Routes = [
     path: 'welcome-user',
     loadChildren: () => import('./welcome-user/welcome-user.module').then( m => m.WelcomeUserPageModule)
   },
+  {
+    path: 'handle-bracelets',
+    loadChildren: () => import('./handle-bracelets/handle-bracelets.module').then( m => m.HandleBraceletsPageModule)
+  },
 ];
 
 @NgModule({

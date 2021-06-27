@@ -17,12 +17,15 @@ export function generateUserData(user: firebase.User) : UserData{
     }
 }
 
+export interface dayTimes{
+    dia: string;
+    horario: number;
+};
+
 export interface Medicine{
     name: string;
-    
-    startTime: number;
-    endTime: number;
-    
+    alarm: string;
+    timetable: dayTimes[];
 };
 
 export interface Bracelet{

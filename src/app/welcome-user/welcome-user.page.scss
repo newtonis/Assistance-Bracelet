@@ -5,3 +5,34 @@
     margin:10px;
     overflow: hidden;
 }
+.title{
+    margin:20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+}
+.content{
+    background: #222233;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffcdd2;
+    height: 100%;
+}
+.telephone{
+    width:80%;
+}
+.title-image{
+    width: 30%;
+}
+.img-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
