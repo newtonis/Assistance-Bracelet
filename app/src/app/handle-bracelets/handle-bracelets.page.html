@@ -1,6 +1,6 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>handleBracelets</ion-title>
+    <ion-title>Handle Bracelets</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -8,19 +8,23 @@
   <div class="content">
     <div class="title">
       <b>
-        <div *ngIf="user">Bienvenido {{user.name}}!</div>
+        PULSERAS
       </b>
     </div>
-    <div class="img-container" fxLayout="row" fxLayoutAlign="center center">
-      <img class="title-image" src="assets/mujer.png">
-    </div>
-    <ion-item class="telephone">
-      <ion-label>Ingrese su Teléfono:</ion-label>
-      <ion-input></ion-input>
-    </ion-item>
-    <div>
+    <ion-list>
+      <ion-item>
+        <ion-label>Pokémon Yellow</ion-label> <ion-button> Abrir </ion-button>
+      </ion-item>
+      <ion-item>
+        <ion-label>Mega Man X</ion-label> <ion-button> Abrir </ion-button>
+      </ion-item>
+      <ion-item>
+        <ion-label>The Legend of Zelda</ion-label> <ion-button> Abrir </ion-button>
+      </ion-item>
+    </ion-list>
+    <div class="button-container">
       <ion-button>
-        Continuar
+        Añadir nueva pulsera
       </ion-button>
     </div>
   </div>
