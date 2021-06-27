@@ -22,9 +22,8 @@ export class DbServiceService {
     this.braceletDataRef = this.afd.list<Bracelet>(`Bracelets/`);
     
     this.braceletDataRef.valueChanges().subscribe(data => {
-      ;
+      console.log("data = ", data)
     });
-  
   
   }
   /*loadMedicine() : Medicine{
