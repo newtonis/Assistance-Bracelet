@@ -1,0 +1,22 @@
+.title{
+    margin:20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+}
+.button-container{
+    width:100%;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffcdd2;
+    height: 100%;
+}
