@@ -11,19 +11,16 @@
         PULSERAS
       </b>
     </div>
-    <ion-list>
+    <div *ngIf="(bracelets | async).length == 0">
+      No hay pulseras
+    </div>
+     <ion-list *ngFor="let bracelet of (bracelets | async)">
       <ion-item>
-        <ion-label>Pokémon Yellow</ion-label> <ion-button> Abrir </ion-button>
-      </ion-item>
-      <ion-item>
-        <ion-label>Mega Man X</ion-label> <ion-button> Abrir </ion-button>
-      </ion-item>
-      <ion-item>
-        <ion-label>The Legend of Zelda</ion-label> <ion-button> Abrir </ion-button>
+        <ion-label>{{bracelet.surname}}</ion-label> &nbsp; <ion-button> Abrir </ion-button>
       </ion-item>
     </ion-list>
     <div class="button-container">
-      <ion-button>
+      <ion-button (click)="goToAddBracelet()">
         Añadir nueva pulsera
       </ion-button>
     </div>

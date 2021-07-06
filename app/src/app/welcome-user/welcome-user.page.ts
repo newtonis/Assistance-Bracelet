@@ -18,8 +18,6 @@ export class WelcomeUserPage implements OnInit {
     this.afAuth.authState.subscribe(user => {
       console.log(user);
         this.user = generateUserData(user);
-        this.dbService.startDataInterface();
-
       }
     );
 

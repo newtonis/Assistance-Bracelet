@@ -89,7 +89,7 @@ export class LoginPage implements OnInit {
           console.log(success);
          // this.authService.setUser(success);
          // this.afAuth.updateCurrentUser(success);
-          this.router.navigateByUrl("/welcome-user");
+          this.router.navigateByUrl("/handle-bracelets");
         },
         (reject => {
           console.log("Login rejected");
@@ -154,7 +154,7 @@ export class LoginPage implements OnInit {
               var email = error.email;
               // The firebase.auth.AuthCredential type that was used.
               var credential = error.credential;
-              // ...
+              
               rejects("Error in login = " + errorCode + " " + errorMessage);
             });
           

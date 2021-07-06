@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>new-bracelet</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="content">
+    <div class="img-container">
+      <img class="title-image" src="assets/anciana.png">
+      <img class="title-image" src="assets/reloj-inteligente.png">
+    </div>
+
+    <ion-item>
+      <ion-label position="fixed">Nombre:</ion-label>
+      <ion-input [(ngModel)]="firstname"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="fixed">Apellido:</ion-label>
+      <ion-input [(ngModel)]="lastname"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="fixed">Apodo:</ion-label>
+      <ion-input  [(ngModel)]="surname"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="fixed">Nacimiento:</ion-label>
+      <ion-datetime [(ngModel)]="birthday" value="2019-10-01T15:43:40.394Z" display-timezone="utc"></ion-datetime>
+    </ion-item>
+
+    <ion-button (click)="sendBraceletData()">
+      Agregar &nbsp; <ion-icon name="add-circle-outline"></ion-icon>
+    </ion-button>
+    
+  </div>
+</ion-content>

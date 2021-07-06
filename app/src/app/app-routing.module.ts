@@ -22,7 +22,11 @@ const routes: Routes = [
   {
     path: 'handle-bracelets',
     loadChildren: () => import('./handle-bracelets/handle-bracelets.module').then( m => m.HandleBraceletsPageModule)
+  },  {
+    path: 'new-bracelet',
+    loadChildren: () => import('./new-bracelet/new-bracelet.module').then( m => m.NewBraceletPageModule)
   },
+
 ];
 
 @NgModule({
